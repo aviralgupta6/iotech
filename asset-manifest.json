@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/iotech/static/css/main.a046689b.css",
+    "main.js": "/iotech/static/js/main.88b4ee2c.js",
+    "static/js/787.846b9484.chunk.js": "/iotech/static/js/787.846b9484.chunk.js",
+    "index.html": "/iotech/index.html",
+    "main.a046689b.css.map": "/iotech/static/css/main.a046689b.css.map",
+    "main.88b4ee2c.js.map": "/iotech/static/js/main.88b4ee2c.js.map",
+    "787.846b9484.chunk.js.map": "/iotech/static/js/787.846b9484.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a046689b.css",
+    "static/js/main.88b4ee2c.js"
+  ]
+}
