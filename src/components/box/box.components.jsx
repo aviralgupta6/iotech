@@ -5,9 +5,10 @@ const Box = () => {
   const [input, setInput] = useState("");
   const handleChange = (e) => {
     setInput(e.target.value);
-    const number = e.target.value.charAt(e.target.value.length - 1);
-    // console.log(number);
-    if (!isNaN(number) && number !== " " && number !== "") {
+  };
+  const handleKeyPress = (e) => {
+    const number = e.charCode - 48;
+    if (number >= 0 && number < 10) {
       alert(`You entered a ${number}`);
     }
   };
@@ -18,6 +19,7 @@ const Box = () => {
         type="text"
         value={input}
         onChange={handleChange}
+        onKeyPress={handleKeyPress}
       ></input>
     </div>
   );
