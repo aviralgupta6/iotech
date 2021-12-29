@@ -6,7 +6,8 @@ const Box = () => {
   const handleChange = (e) => {
     setInput(e.target.value);
     const number = e.target.value.charAt(e.target.value.length - 1);
-    if (!isNaN(number)) {
+    // console.log(number);
+    if (!isNaN(number) && number !== " " && number !== "") {
       alert(`You entered a ${number}`);
     }
   };
